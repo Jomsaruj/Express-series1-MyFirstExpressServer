@@ -1,6 +1,12 @@
 # my-first-express-server
 Here is my first experience with NodeJS web application framework - Express
 
+How to add express to your project
+
+1. nevigate to the directory
+2. open terminal and enter node npm init
+3. enter npm install express
+
 How to run server
 
 1. nevigate to the directory
