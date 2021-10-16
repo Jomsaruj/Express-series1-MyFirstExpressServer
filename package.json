@@ -1,0 +1,23 @@
+{
+  "name": "my-first-express-server",
+  "version": "1.0.0",
+  "description": "My first express server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jomsaruj/my-first-express-server.git"
+  },
+  "author": "Saruj Sattayanurak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jomsaruj/my-first-express-server/issues"
+  },
+  "homepage": "https://github.com/Jomsaruj/my-first-express-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
