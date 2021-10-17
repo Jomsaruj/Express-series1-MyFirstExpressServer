@@ -1,4 +1,4 @@
-# my-first-express-server
+# Create my first express server!
 Here is my first experience with NodeJS web application framework - Express
 
 ### How to add express to your project
