@@ -3,6 +3,7 @@ Here is my first experience with NodeJS web application framework - Express
 
 ### How to add express to your project
 
+0. make sure you have node installed on your computer
 1. open terminal
 2. cd to the directory
 3. enter ```node npm init```
