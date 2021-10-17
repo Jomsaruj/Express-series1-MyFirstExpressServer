@@ -50,3 +50,41 @@ app.get("/calculator", function(request,response){
 NOTE: __dirname command will seek for path before reach index.html file
 
 At this step, if you run ```node server.js``` again and go to localhost:3000/calculator you will see your HTML file render there
+
+### How to handle POST request
+
+In this section, we're going to make simple calculator
+
+1. cd to the directory
+2. open Terminal
+3. ``` npm install body-parser ```
+4. modify index.html, make it look like this
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form action="/calculator" method="post">
+        <input type="text" name="num1" placeholder="First Number">
+        <input type="text" name="num2" placeholder="Second Number">
+        <button type="submit" name="submit">ADD</button>
+    </form>
+</body>
+</html>
+```
+5. add this code to server.js
+```
+app.post("/calculator", function(request,response){
+	var num1 = Number(request.body.num1);
+	var num2 = Number(request.body.num2);
+	var result = num1+num2
+
+	response.send("Result = " + result)
+})
+```
