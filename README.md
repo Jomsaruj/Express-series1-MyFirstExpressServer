@@ -36,3 +36,17 @@ app.listen(3000, function(){
 5. you should see word "This is root page" (at root)
 6. This is how to create express server
 7. you also can add different routes, see more in server.js
+
+### How to response to request with HTML file
+
+1. create index.html with HTML code that you like
+2. create new route(if needed) and use command ``` sendFile``` as below
+
+```
+app.get("/calculator", function(request,response){
+	response.sendFile(__dirname + "/index.html");
+})
+```
+NOTE: __dirname command will seek for path before reach index.html file
+
+At this step, if you run ```node server.js``` again and go to localhost:3000/calculator you will see your HTML file render there
