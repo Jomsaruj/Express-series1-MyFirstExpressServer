@@ -13,6 +13,12 @@ NOTE: you can start with only empty server.js file in your directory, commands b
 
 ### How to run server
 
+NOTE: at this step, I have already modified server.js by add this command to the code.
+
+```
+
+```
+
 1. open terminal
 1. cd to the directory
 2. enter ```node server.js``` to run server
