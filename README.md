@@ -88,3 +88,7 @@ app.post("/calculator", function(request,response){
 	response.send("Result = " + result)
 })
 ```
+
+At this point you already know some fundamental concept of ExpressJS. Next, you will learn how to make easy weather quality web application by get some information using API from https://aqicn.org/
+
+see more
