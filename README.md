@@ -8,7 +8,7 @@ NOTE: you can start with only empty server.js file in your directory, commands b
 0. make sure you have node installed on your computer
 1. open terminal
 2. cd to the directory
-3. enter ```node npm init```
+3. enter ```node npm init``` (npm will let you enter some infomation, if you do not want to input anything, you can just press ENTER for every step, it is fine)
 4. enter ```npm install express```
 
 ### How to run server
