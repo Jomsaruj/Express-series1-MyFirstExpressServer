@@ -3,13 +3,13 @@ Here is my first experience with NodeJS web application framework - Express
 
 ### How to add express to your project
 
+NOTE: you can start with only empty server.js file in your directory, commands below will generate the rest to you automatically
+
 0. make sure you have node installed on your computer
 1. open terminal
 2. cd to the directory
 3. enter ```node npm init```
 4. enter ```npm install express```
-
-NOTE: you can start with only empty server.js file in your directory, commands above will generate the rest to you autometically
 
 ### How to run server
 
