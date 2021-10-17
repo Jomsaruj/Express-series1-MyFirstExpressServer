@@ -88,3 +88,7 @@ app.post("/calculator", function(request,response){
 	response.send("Result = " + result)
 })
 ```
+
+### Do something awesome!!!
+
+Now at this point, you have some basic knowledge on how to use Express. This is an optional section, we're going to make a simple BMI calculator web application from the current knowledge.
