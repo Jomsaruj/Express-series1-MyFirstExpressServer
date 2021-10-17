@@ -16,6 +16,12 @@ NOTE: you can start with only empty server.js file in your directory, commands b
 NOTE: at this step, I have already modified server.js by add this command to the code.
 
 ```
+const express = require("express");
+const app = express();
+
+app.get("/", function(request,response){
+	response.send("<h1>This is root page</h1>");
+})
 
 ```
 
@@ -23,6 +29,6 @@ NOTE: at this step, I have already modified server.js by add this command to the
 1. cd to the directory
 2. enter ```node server.js``` to run server
 3. open your search engine to localhost:3000(depend on your defined port)
-4. you should see word "Hello" (at root)
+4. you should see word "This is root page" (at root)
 5. This is how to create express server
 6. you also can add different routes, see more in server.js
