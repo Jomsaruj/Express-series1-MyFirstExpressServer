@@ -48,3 +48,5 @@ app.get("/calculator", function(request,response){
 })
 ```
 NOTE: __dirname command will seek for path before reach index.html file
+
+At this step, if you run ```node server.js``` again and go to localhost:3000/calculator you will see your HTML file render there
