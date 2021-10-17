@@ -3,7 +3,7 @@ Here is my first experience with NodeJS web application framework - Express
 
 ### How to add express to your project
 
-NOTE: you can start with only empty server.js file in your directory, commands below will generate the rest to you automatically
+NOTE: you can start with only empty server.js file in your directory, commands below will generate the rest to you automatically(except README.md)
 
 0. make sure you have node installed on your computer
 1. open terminal
