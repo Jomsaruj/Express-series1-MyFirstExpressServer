@@ -9,6 +9,8 @@ Here is my first experience with NodeJS web application framework - Express
 3. enter ```node npm init```
 4. enter ```npm install express```
 
+NOTE: you can start with only empty server.js file in your directory, commands above will generate the rest to you autometically
+
 ### How to run server
 
 1. open terminal
