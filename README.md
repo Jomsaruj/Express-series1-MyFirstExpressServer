@@ -23,18 +23,16 @@ app.get("/", function(request,response){
 	response.send("<h1>This is root page</h1>");
 })
 
+app.listen(3000, function(){
+	console.log("Server started on port 3000");
+});
+
 ```
 
 1. open terminal
 2. cd to the directory
-3. Spin up the server on port 3000 with app.listen
-```
-app.listen(3000, function(){
-	console.log("Server started on port 3000");
-});
-```
-4. enter ```node server.js``` to run server
-5. open your search engine to localhost:3000(depend on your defined port)
-6. you should see word "This is root page" (at root)
-7. This is how to create express server
-8. you also can add different routes, see more in server.js
+3. enter ```node server.js``` to run server
+4. open your search engine to localhost:3000(depend on your defined port)
+5. you should see word "This is root page" (at root)
+6. This is how to create express server
+7. you also can add different routes, see more in server.js
